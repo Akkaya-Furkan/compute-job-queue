@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-24",
+  "python": "3.11.15",
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "19",
+    "time": "8.037",
+    "timestamp": "2026-10-24T15:33:49.242684+03:00",
+    "hostname": "fedora"
+  },
+  "container": {
+    "build": "passed",
+    "before_restart": {
+      "workers_alive": 2,
+      "result": 328350,
+      "id": "d72c02adb23f40db9780d8601a8f11eb",
+      "state": "succeeded"
+    },
+    "after_restart": {
+      "restart_result": 328350,
+      "id": "d72c02adb23f40db9780d8601a8f11eb",
+      "state": "succeeded"
+    }
+  },
+  "concurrency": {
+    "submitted": 12,
+    "succeeded": 12,
+    "unique_ids": 12,
+    "attempt_records": 12,
+    "peak": 3,
+    "source": "test_concurrent_claims_and_execution asserts counts and prints measured peak"
+  }
+}

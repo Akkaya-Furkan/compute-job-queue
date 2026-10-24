@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compute-job-queue"
+version = "0.1.0"
+description = "Persistent single-host queue for synthetic computations"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[project.scripts]
+compute-queue = "compute_queue.api:main"
+
+[tool.setuptools.packages.find]
+include = ["compute_queue*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

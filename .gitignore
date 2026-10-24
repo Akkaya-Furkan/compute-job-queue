@@ -3,4 +3,10 @@ __pycache__/
 .venv/
 .env
 .ipynb_checkpoints/
-data/raw/
+data/
+*.egg-info/
+*.sqlite*
+*.db*
+*.lock
+.pytest_cache/
+test-results.xml
