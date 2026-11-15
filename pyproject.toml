@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
-test = ["pytest==8.3.5"]
+test = ["pytest==9.0.3"]
 
 [project.scripts]
 compute-queue = "compute_queue.api:main"
